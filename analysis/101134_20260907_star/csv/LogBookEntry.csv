@@ -1,0 +1,234 @@
+timestamp,utc,src,src_ent,src_ent_label,dst,dst_ent,type,htime,context,text
+1788775895.4815888,2026-09-07T10:11:35.481588Z,8259,95,Vehicle Supervisor,65535,255,1,1788775895.4815881,Supervisors.Vehicle,now in 'CALIBRATION' mode
+1788775898.9817183,2026-09-07T10:11:38.981718Z,8259,51,Plan Engine,65535,255,0,1788775898.9817178,Plan.Engine,Goto1: executing maneuver
+1788775899.4816165,2026-09-07T10:11:39.481616Z,8259,95,Vehicle Supervisor,65535,255,1,1788775899.4816155,Supervisors.Vehicle,now in 'MANEUVERING' mode
+1788775899.9819086,2026-09-07T10:11:39.981908Z,8259,21,Path Control,65535,255,0,1788775899.981908,Control.Path.VectorField,path (lat/lon): 78.66227 16.89958 to 78.66285 16.89523
+1788775911.0615523,2026-09-07T10:11:51.061552Z,8259,108,UDP,65535,255,0,1788775911.061552,Transports.UDP,deactivating transmission to node 'ccu-72-18'
+1788775930.5256789,2026-09-07T10:12:10.525678Z,8259,107,Acoustic Access Controller,65535,255,4,1788775930.5256784,Transports.UAN,Acoustic frame with 30 bytes will be sent to broadcast.
+1788775930.5456672,2026-09-07T10:12:10.545667Z,8259,107,Acoustic Access Controller,65535,255,4,1788775930.5456662,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 5
+1788775930.5458357,2026-09-07T10:12:10.545835Z,8259,107,Acoustic Access Controller,65535,255,4,1788775930.5458355,Transports.UAN,m_last_acop is null
+1788775931.0877757,2026-09-07T10:12:11.087775Z,8259,107,Acoustic Access Controller,65535,255,4,1788775931.087775,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 0
+1788775931.0880103,2026-09-07T10:12:11.088010Z,8259,107,Acoustic Access Controller,65535,255,4,1788775931.0880098,Transports.UAN,m_last_acop is null
+1788775967.663901,2026-09-07T10:12:47.663901Z,8259,98,Service Discovery,65535,255,0,1788775967.6639009,Transports.Discovery,new node within range 'ccu-thale-50-116' / 21108 / 10.0.200.35
+1788775970.4817452,2026-09-07T10:12:50.481745Z,8259,51,Plan Engine,65535,255,0,1788775970.4817445,Plan.Engine,Goto2: executing maneuver
+1788775970.9819002,2026-09-07T10:12:50.981900Z,8259,21,Path Control,65535,255,0,1788775970.9818995,Control.Path.VectorField,path (lat/lon): 78.66285 16.89523 to 78.66453 16.89054
+1788775979.0560663,2026-09-07T10:12:59.056066Z,8259,47,Servo Monitor,65535,255,1,1788775979.0560658,Monitors.Servos,"potential fault in servo #3, current consumption above 1.0 A"
+1788775990.5755749,2026-09-07T10:13:10.575574Z,8259,107,Acoustic Access Controller,65535,255,4,1788775990.5755742,Transports.UAN,Acoustic frame with 30 bytes will be sent to broadcast.
+1788775990.5937681,2026-09-07T10:13:10.593768Z,8259,107,Acoustic Access Controller,65535,255,4,1788775990.5937676,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 5
+1788775990.5938818,2026-09-07T10:13:10.593881Z,8259,107,Acoustic Access Controller,65535,255,4,1788775990.5938816,Transports.UAN,m_last_acop is null
+1788775991.137946,2026-09-07T10:13:11.137945Z,8259,107,Acoustic Access Controller,65535,255,4,1788775991.1379454,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 0
+1788775991.1380727,2026-09-07T10:13:11.138072Z,8259,107,Acoustic Access Controller,65535,255,4,1788775991.1380727,Transports.UAN,m_last_acop is null
+1788776013.5771163,2026-09-07T10:13:33.577116Z,8259,108,UDP,65535,255,0,1788776013.5771155,Transports.UDP,deactivating transmission to node 'ccu-araz-1-1'
+1788776013.577293,2026-09-07T10:13:33.577292Z,8259,108,UDP,65535,255,0,1788776013.577293,Transports.UDP,deactivating transmission to node 'ccu-theocha-200-37'
+1788776039.131832,2026-09-07T10:13:59.131831Z,8259,107,Acoustic Access Controller,65535,255,4,1788776039.1318314,Transports.UAN,parsing message received via acoustic message
+1788776039.1321075,2026-09-07T10:13:59.132107Z,8259,107,Acoustic Access Controller,65535,255,4,1788776039.1321073,Transports.UAN,acoustic message successfully parsed as 'TextMessage'.
+1788776039.1321547,2026-09-07T10:13:59.132154Z,8259,10,Text Message Parser,65535,255,4,1788776039.1321537,Autonomy.TextActions,processing text message from acoustic: 'pos '
+1788776039.132273,2026-09-07T10:13:59.132272Z,8259,10,Text Message Parser,65535,255,4,1788776039.1322727,Autonomy.TextActions,"cmd is pos, args are "
+1788776039.1324077,2026-09-07T10:13:59.132407Z,8259,107,Acoustic Access Controller,65535,255,4,1788776039.1324072,Transports.UAN,Acoustic frame with 30 bytes will be sent to broadcast.
+1788776039.1689982,2026-09-07T10:13:59.168998Z,8259,107,Acoustic Access Controller,65535,255,4,1788776039.168998,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 5
+1788776039.169055,2026-09-07T10:13:59.169054Z,8259,107,Acoustic Access Controller,65535,255,4,1788776039.169055,Transports.UAN,m_last_acop is null
+1788776039.347859,2026-09-07T10:13:59.347858Z,8259,107,Acoustic Access Controller,65535,255,4,1788776039.3478582,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 0
+1788776039.3480728,2026-09-07T10:13:59.348072Z,8259,107,Acoustic Access Controller,65535,255,4,1788776039.348072,Transports.UAN,m_last_acop is null
+1788776050.625548,2026-09-07T10:14:10.625547Z,8259,107,Acoustic Access Controller,65535,255,4,1788776050.6255472,Transports.UAN,Acoustic frame with 30 bytes will be sent to broadcast.
+1788776050.6446445,2026-09-07T10:14:10.644644Z,8259,107,Acoustic Access Controller,65535,255,4,1788776050.6446443,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 5
+1788776050.644713,2026-09-07T10:14:10.644712Z,8259,107,Acoustic Access Controller,65535,255,4,1788776050.644713,Transports.UAN,m_last_acop is null
+1788776051.1874554,2026-09-07T10:14:11.187455Z,8259,107,Acoustic Access Controller,65535,255,4,1788776051.187455,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 0
+1788776051.1875763,2026-09-07T10:14:11.187576Z,8259,107,Acoustic Access Controller,65535,255,4,1788776051.187576,Transports.UAN,m_last_acop is null
+1788776088.038438,2026-09-07T10:14:48.038438Z,8259,102,Iridium Modem,65535,255,1,1788776088.0384374,Transports.IridiumSBD,transmission failed: Status Code 18: connection lost
+1788776101.294975,2026-09-07T10:15:01.294975Z,8259,107,Acoustic Access Controller,65535,255,4,1788776101.2949743,Transports.UAN,parsing message received via acoustic message
+1788776101.295188,2026-09-07T10:15:01.295187Z,8259,107,Acoustic Access Controller,65535,255,4,1788776101.2951877,Transports.UAN,acoustic message successfully parsed as 'TextMessage'.
+1788776101.2952926,2026-09-07T10:15:01.295292Z,8259,10,Text Message Parser,65535,255,4,1788776101.2952921,Autonomy.TextActions,processing text message from acoustic: 'pos '
+1788776101.295543,2026-09-07T10:15:01.295542Z,8259,10,Text Message Parser,65535,255,4,1788776101.2955422,Autonomy.TextActions,"cmd is pos, args are "
+1788776101.2957,2026-09-07T10:15:01.295700Z,8259,107,Acoustic Access Controller,65535,255,4,1788776101.2956996,Transports.UAN,Acoustic frame with 30 bytes will be sent to broadcast.
+1788776101.3331752,2026-09-07T10:15:01.333175Z,8259,107,Acoustic Access Controller,65535,255,4,1788776101.3331742,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 5
+1788776101.3333845,2026-09-07T10:15:01.333384Z,8259,107,Acoustic Access Controller,65535,255,4,1788776101.3333838,Transports.UAN,m_last_acop is null
+1788776101.513288,2026-09-07T10:15:01.513288Z,8259,107,Acoustic Access Controller,65535,255,4,1788776101.5132868,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 0
+1788776101.5134919,2026-09-07T10:15:01.513491Z,8259,107,Acoustic Access Controller,65535,255,4,1788776101.5134914,Transports.UAN,m_last_acop is null
+1788776110.6257324,2026-09-07T10:15:10.625732Z,8259,107,Acoustic Access Controller,65535,255,4,1788776110.625732,Transports.UAN,Acoustic frame with 30 bytes will be sent to broadcast.
+1788776110.643685,2026-09-07T10:15:10.643685Z,8259,107,Acoustic Access Controller,65535,255,4,1788776110.6436849,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 5
+1788776110.6437461,2026-09-07T10:15:10.643746Z,8259,107,Acoustic Access Controller,65535,255,4,1788776110.6437461,Transports.UAN,m_last_acop is null
+1788776111.187534,2026-09-07T10:15:11.187534Z,8259,107,Acoustic Access Controller,65535,255,4,1788776111.1875336,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 0
+1788776111.187627,2026-09-07T10:15:11.187627Z,8259,107,Acoustic Access Controller,65535,255,4,1788776111.1876268,Transports.UAN,m_last_acop is null
+1788776113.9816246,2026-09-07T10:15:13.981624Z,8259,51,Plan Engine,65535,255,0,1788776113.981624,Plan.Engine,Goto3: executing maneuver
+1788776114.4820035,2026-09-07T10:15:14.482003Z,8259,21,Path Control,65535,255,0,1788776114.4820025,Control.Path.VectorField,path (lat/lon): 78.66453 16.89054 to 78.66448 16.89531
+1788776136.075638,2026-09-07T10:15:36.075638Z,8259,107,Acoustic Access Controller,65535,255,4,1788776136.0756376,Transports.UAN,parsing message received via acoustic message
+1788776136.075875,2026-09-07T10:15:36.075875Z,8259,107,Acoustic Access Controller,65535,255,4,1788776136.0758748,Transports.UAN,acoustic message successfully parsed as 'TextMessage'.
+1788776136.0758932,2026-09-07T10:15:36.075893Z,8259,10,Text Message Parser,65535,255,4,1788776136.0758927,Autonomy.TextActions,processing text message from acoustic: 'pos '
+1788776136.0760705,2026-09-07T10:15:36.076070Z,8259,10,Text Message Parser,65535,255,4,1788776136.0760703,Autonomy.TextActions,"cmd is pos, args are "
+1788776136.076381,2026-09-07T10:15:36.076380Z,8259,107,Acoustic Access Controller,65535,255,4,1788776136.0763807,Transports.UAN,Acoustic frame with 30 bytes will be sent to broadcast.
+1788776136.115621,2026-09-07T10:15:36.115621Z,8259,107,Acoustic Access Controller,65535,255,4,1788776136.1156201,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 5
+1788776136.115794,2026-09-07T10:15:36.115793Z,8259,107,Acoustic Access Controller,65535,255,4,1788776136.1157937,Transports.UAN,m_last_acop is null
+1788776136.294764,2026-09-07T10:15:36.294764Z,8259,107,Acoustic Access Controller,65535,255,4,1788776136.2947636,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 0
+1788776136.2948542,2026-09-07T10:15:36.294854Z,8259,107,Acoustic Access Controller,65535,255,4,1788776136.294854,Transports.UAN,m_last_acop is null
+1788776156.7933571,2026-09-07T10:15:56.793357Z,8259,107,Acoustic Access Controller,65535,255,4,1788776156.7933567,Transports.UAN,parsing message received via acoustic message
+1788776156.7935739,2026-09-07T10:15:56.793573Z,8259,107,Acoustic Access Controller,65535,255,4,1788776156.7935736,Transports.UAN,acoustic message successfully parsed as 'TextMessage'.
+1788776156.7936282,2026-09-07T10:15:56.793628Z,8259,10,Text Message Parser,65535,255,4,1788776156.7936277,Autonomy.TextActions,processing text message from acoustic: 'pos '
+1788776156.7937531,2026-09-07T10:15:56.793753Z,8259,10,Text Message Parser,65535,255,4,1788776156.793753,Autonomy.TextActions,"cmd is pos, args are "
+1788776156.793891,2026-09-07T10:15:56.793890Z,8259,107,Acoustic Access Controller,65535,255,4,1788776156.7938905,Transports.UAN,Acoustic frame with 30 bytes will be sent to broadcast.
+1788776156.8343546,2026-09-07T10:15:56.834354Z,8259,107,Acoustic Access Controller,65535,255,4,1788776156.8343544,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 5
+1788776156.8344233,2026-09-07T10:15:56.834423Z,8259,107,Acoustic Access Controller,65535,255,4,1788776156.834423,Transports.UAN,m_last_acop is null
+1788776157.0130339,2026-09-07T10:15:57.013033Z,8259,107,Acoustic Access Controller,65535,255,4,1788776157.0130332,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 0
+1788776157.0132117,2026-09-07T10:15:57.013211Z,8259,107,Acoustic Access Controller,65535,255,4,1788776157.0132115,Transports.UAN,m_last_acop is null
+1788776170.6756256,2026-09-07T10:16:10.675625Z,8259,107,Acoustic Access Controller,65535,255,4,1788776170.6756246,Transports.UAN,Acoustic frame with 30 bytes will be sent to broadcast.
+1788776170.6930165,2026-09-07T10:16:10.693016Z,8259,107,Acoustic Access Controller,65535,255,4,1788776170.693016,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 5
+1788776170.693159,2026-09-07T10:16:10.693159Z,8259,107,Acoustic Access Controller,65535,255,4,1788776170.6931589,Transports.UAN,m_last_acop is null
+1788776171.2614815,2026-09-07T10:16:11.261481Z,8259,107,Acoustic Access Controller,65535,255,4,1788776171.2614808,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 0
+1788776171.2616858,2026-09-07T10:16:11.261685Z,8259,107,Acoustic Access Controller,65535,255,4,1788776171.2616851,Transports.UAN,m_last_acop is null
+1788776188.981688,2026-09-07T10:16:28.981688Z,8259,51,Plan Engine,65535,255,0,1788776188.9816873,Plan.Engine,Goto4: executing maneuver
+1788776189.4819493,2026-09-07T10:16:29.481949Z,8259,21,Path Control,65535,255,0,1788776189.4819486,Control.Path.VectorField,path (lat/lon): 78.66448 16.89531 to 78.66293 16.89065
+1788776190.4391963,2026-09-07T10:16:30.439196Z,8259,107,Acoustic Access Controller,65535,255,4,1788776190.4391959,Transports.UAN,parsing message received via acoustic message
+1788776190.4393084,2026-09-07T10:16:30.439308Z,8259,107,Acoustic Access Controller,65535,255,4,1788776190.439308,Transports.UAN,acoustic message successfully parsed as 'TextMessage'.
+1788776190.4393137,2026-09-07T10:16:30.439313Z,8259,10,Text Message Parser,65535,255,4,1788776190.4393132,Autonomy.TextActions,processing text message from acoustic: 'pos '
+1788776190.4394023,2026-09-07T10:16:30.439402Z,8259,10,Text Message Parser,65535,255,4,1788776190.4394019,Autonomy.TextActions,"cmd is pos, args are "
+1788776190.4394877,2026-09-07T10:16:30.439487Z,8259,107,Acoustic Access Controller,65535,255,4,1788776190.4394877,Transports.UAN,Acoustic frame with 30 bytes will be sent to broadcast.
+1788776190.4792075,2026-09-07T10:16:30.479207Z,8259,107,Acoustic Access Controller,65535,255,4,1788776190.4792063,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 5
+1788776190.4793859,2026-09-07T10:16:30.479385Z,8259,107,Acoustic Access Controller,65535,255,4,1788776190.4793854,Transports.UAN,m_last_acop is null
+1788776190.6584816,2026-09-07T10:16:30.658481Z,8259,107,Acoustic Access Controller,65535,255,4,1788776190.658481,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 0
+1788776190.6586604,2026-09-07T10:16:30.658660Z,8259,107,Acoustic Access Controller,65535,255,4,1788776190.6586602,Transports.UAN,m_last_acop is null
+1788776207.3963306,2026-09-07T10:16:47.396330Z,8259,47,Servo Monitor,65535,255,1,1788776207.3963299,Monitors.Servos,"potential fault in servo #3, current consumption above 1.0 A"
+1788776230.7255518,2026-09-07T10:17:10.725551Z,8259,107,Acoustic Access Controller,65535,255,4,1788776230.7255514,Transports.UAN,Acoustic frame with 30 bytes will be sent to broadcast.
+1788776230.7437196,2026-09-07T10:17:10.743719Z,8259,107,Acoustic Access Controller,65535,255,4,1788776230.7437189,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 5
+1788776230.743846,2026-09-07T10:17:10.743845Z,8259,107,Acoustic Access Controller,65535,255,4,1788776230.7438457,Transports.UAN,m_last_acop is null
+1788776231.2892568,2026-09-07T10:17:11.289256Z,8259,107,Acoustic Access Controller,65535,255,4,1788776231.2892556,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 0
+1788776231.289493,2026-09-07T10:17:11.289493Z,8259,107,Acoustic Access Controller,65535,255,4,1788776231.2894921,Transports.UAN,m_last_acop is null
+1788776232.641683,2026-09-07T10:17:12.641683Z,8259,107,Acoustic Access Controller,65535,255,4,1788776232.6416826,Transports.UAN,parsing message received via acoustic message
+1788776232.6418195,2026-09-07T10:17:12.641819Z,8259,107,Acoustic Access Controller,65535,255,4,1788776232.6418192,Transports.UAN,acoustic message successfully parsed as 'TextMessage'.
+1788776232.641822,2026-09-07T10:17:12.641822Z,8259,10,Text Message Parser,65535,255,4,1788776232.6418219,Autonomy.TextActions,processing text message from acoustic: 'pos '
+1788776232.6418989,2026-09-07T10:17:12.641898Z,8259,10,Text Message Parser,65535,255,4,1788776232.6418984,Autonomy.TextActions,"cmd is pos, args are "
+1788776232.7755475,2026-09-07T10:17:12.775547Z,8259,107,Acoustic Access Controller,65535,255,4,1788776232.7755468,Transports.UAN,Acoustic frame with 30 bytes will be sent to broadcast.
+1788776232.7927196,2026-09-07T10:17:12.792719Z,8259,107,Acoustic Access Controller,65535,255,4,1788776232.792719,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 5
+1788776232.7929046,2026-09-07T10:17:12.792904Z,8259,107,Acoustic Access Controller,65535,255,4,1788776232.7929044,Transports.UAN,m_last_acop is null
+1788776232.8634765,2026-09-07T10:17:12.863476Z,8259,107,Acoustic Access Controller,65535,255,4,1788776232.863476,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 0
+1788776232.8636577,2026-09-07T10:17:12.863657Z,8259,107,Acoustic Access Controller,65535,255,4,1788776232.8636572,Transports.UAN,m_last_acop is null
+1788776265.1450593,2026-09-07T10:17:45.145059Z,8259,107,Acoustic Access Controller,65535,255,4,1788776265.1450589,Transports.UAN,parsing message received via acoustic message
+1788776265.1452274,2026-09-07T10:17:45.145227Z,8259,107,Acoustic Access Controller,65535,255,4,1788776265.1452274,Transports.UAN,acoustic message successfully parsed as 'TextMessage'.
+1788776265.1452303,2026-09-07T10:17:45.145230Z,8259,10,Text Message Parser,65535,255,4,1788776265.1452298,Autonomy.TextActions,processing text message from acoustic: 'pos '
+1788776265.145424,2026-09-07T10:17:45.145423Z,8259,10,Text Message Parser,65535,255,4,1788776265.1454237,Autonomy.TextActions,"cmd is pos, args are "
+1788776265.1455314,2026-09-07T10:17:45.145531Z,8259,107,Acoustic Access Controller,65535,255,4,1788776265.1455312,Transports.UAN,Acoustic frame with 30 bytes will be sent to broadcast.
+1788776265.1781704,2026-09-07T10:17:45.178170Z,8259,107,Acoustic Access Controller,65535,255,4,1788776265.1781702,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 5
+1788776265.178237,2026-09-07T10:17:45.178236Z,8259,107,Acoustic Access Controller,65535,255,4,1788776265.178237,Transports.UAN,m_last_acop is null
+1788776265.3648317,2026-09-07T10:17:45.364831Z,8259,107,Acoustic Access Controller,65535,255,4,1788776265.364831,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 0
+1788776265.3650324,2026-09-07T10:17:45.365032Z,8259,107,Acoustic Access Controller,65535,255,4,1788776265.365032,Transports.UAN,m_last_acop is null
+1788776290.725597,2026-09-07T10:18:10.725596Z,8259,107,Acoustic Access Controller,65535,255,4,1788776290.7255964,Transports.UAN,Acoustic frame with 30 bytes will be sent to broadcast.
+1788776290.7436833,2026-09-07T10:18:10.743683Z,8259,107,Acoustic Access Controller,65535,255,4,1788776290.7436829,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 5
+1788776290.7438107,2026-09-07T10:18:10.743810Z,8259,107,Acoustic Access Controller,65535,255,4,1788776290.7438104,Transports.UAN,m_last_acop is null
+1788776291.2890484,2026-09-07T10:18:11.289048Z,8259,107,Acoustic Access Controller,65535,255,4,1788776291.2890475,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 0
+1788776291.2892509,2026-09-07T10:18:11.289250Z,8259,107,Acoustic Access Controller,65535,255,4,1788776291.2892504,Transports.UAN,m_last_acop is null
+1788776326.4818552,2026-09-07T10:18:46.481855Z,8259,51,Plan Engine,65535,255,0,1788776326.4818547,Plan.Engine,Goto5: executing maneuver
+1788776326.9818063,2026-09-07T10:18:46.981806Z,8259,21,Path Control,65535,255,0,1788776326.9818056,Control.Path.VectorField,path (lat/lon): 78.66293 16.89065 to 78.66369 16.88852
+1788776350.7755947,2026-09-07T10:19:10.775594Z,8259,107,Acoustic Access Controller,65535,255,4,1788776350.775594,Transports.UAN,Acoustic frame with 30 bytes will be sent to broadcast.
+1788776350.794711,2026-09-07T10:19:10.794711Z,8259,107,Acoustic Access Controller,65535,255,4,1788776350.79471,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 5
+1788776350.7949166,2026-09-07T10:19:10.794916Z,8259,107,Acoustic Access Controller,65535,255,4,1788776350.7949164,Transports.UAN,m_last_acop is null
+1788776351.3376727,2026-09-07T10:19:11.337672Z,8259,107,Acoustic Access Controller,65535,255,4,1788776351.3376718,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 0
+1788776351.3378587,2026-09-07T10:19:11.337858Z,8259,107,Acoustic Access Controller,65535,255,4,1788776351.3378582,Transports.UAN,m_last_acop is null
+1788776355.8904953,2026-09-07T10:19:15.890495Z,8259,107,Acoustic Access Controller,65535,255,4,1788776355.8904943,Transports.UAN,parsing message received via acoustic message
+1788776355.8907056,2026-09-07T10:19:15.890705Z,8259,107,Acoustic Access Controller,65535,255,4,1788776355.8907053,Transports.UAN,acoustic message successfully parsed as 'TextMessage'.
+1788776355.890754,2026-09-07T10:19:15.890753Z,8259,10,Text Message Parser,65535,255,4,1788776355.8907533,Autonomy.TextActions,processing text message from acoustic: 'pos '
+1788776355.890882,2026-09-07T10:19:15.890882Z,8259,10,Text Message Parser,65535,255,4,1788776355.8908818,Autonomy.TextActions,"cmd is pos, args are "
+1788776355.8910575,2026-09-07T10:19:15.891057Z,8259,107,Acoustic Access Controller,65535,255,4,1788776355.8910573,Transports.UAN,Acoustic frame with 30 bytes will be sent to broadcast.
+1788776355.9333327,2026-09-07T10:19:15.933332Z,8259,107,Acoustic Access Controller,65535,255,4,1788776355.9333317,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 5
+1788776355.93352,2026-09-07T10:19:15.933520Z,8259,107,Acoustic Access Controller,65535,255,4,1788776355.9335198,Transports.UAN,m_last_acop is null
+1788776356.106916,2026-09-07T10:19:16.106915Z,8259,107,Acoustic Access Controller,65535,255,4,1788776356.106915,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 0
+1788776356.1071062,2026-09-07T10:19:16.107106Z,8259,107,Acoustic Access Controller,65535,255,4,1788776356.107106,Transports.UAN,m_last_acop is null
+1788776396.481741,2026-09-07T10:19:56.481740Z,8259,51,Plan Engine,65535,255,0,1788776396.4817402,Plan.Engine,Goto6: executing maneuver
+1788776396.9817495,2026-09-07T10:19:56.981749Z,8259,21,Path Control,65535,255,0,1788776396.9817493,Control.Path.VectorField,path (lat/lon): 78.66369 16.88852 to 78.66365 16.89767
+1788776401.5957062,2026-09-07T10:20:01.595706Z,8259,107,Acoustic Access Controller,65535,255,4,1788776401.5957053,Transports.UAN,parsing message received via acoustic message
+1788776401.5959501,2026-09-07T10:20:01.595950Z,8259,107,Acoustic Access Controller,65535,255,4,1788776401.59595,Transports.UAN,acoustic message successfully parsed as 'TextMessage'.
+1788776401.5960145,2026-09-07T10:20:01.596014Z,8259,10,Text Message Parser,65535,255,4,1788776401.5960135,Autonomy.TextActions,processing text message from acoustic: 'pos '
+1788776401.596233,2026-09-07T10:20:01.596232Z,8259,10,Text Message Parser,65535,255,4,1788776401.5962324,Autonomy.TextActions,"cmd is pos, args are "
+1788776401.596498,2026-09-07T10:20:01.596498Z,8259,107,Acoustic Access Controller,65535,255,4,1788776401.5964978,Transports.UAN,Acoustic frame with 30 bytes will be sent to broadcast.
+1788776401.6352718,2026-09-07T10:20:01.635271Z,8259,107,Acoustic Access Controller,65535,255,4,1788776401.635271,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 5
+1788776401.6353865,2026-09-07T10:20:01.635386Z,8259,107,Acoustic Access Controller,65535,255,4,1788776401.6353865,Transports.UAN,m_last_acop is null
+1788776401.8107305,2026-09-07T10:20:01.810730Z,8259,107,Acoustic Access Controller,65535,255,4,1788776401.8107295,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 0
+1788776401.8109217,2026-09-07T10:20:01.810921Z,8259,107,Acoustic Access Controller,65535,255,4,1788776401.8109212,Transports.UAN,m_last_acop is null
+1788776410.775541,2026-09-07T10:20:10.775541Z,8259,107,Acoustic Access Controller,65535,255,4,1788776410.7755406,Transports.UAN,Acoustic frame with 30 bytes will be sent to broadcast.
+1788776410.7990458,2026-09-07T10:20:10.799045Z,8259,107,Acoustic Access Controller,65535,255,4,1788776410.799045,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 5
+1788776410.799238,2026-09-07T10:20:10.799237Z,8259,107,Acoustic Access Controller,65535,255,4,1788776410.7992377,Transports.UAN,m_last_acop is null
+1788776411.3407452,2026-09-07T10:20:11.340745Z,8259,107,Acoustic Access Controller,65535,255,4,1788776411.3407445,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 0
+1788776411.3409884,2026-09-07T10:20:11.340988Z,8259,107,Acoustic Access Controller,65535,255,4,1788776411.3409877,Transports.UAN,m_last_acop is null
+1788776445.9040697,2026-09-07T10:20:45.904069Z,8259,107,Acoustic Access Controller,65535,255,4,1788776445.904069,Transports.UAN,parsing message received via acoustic message
+1788776445.9043248,2026-09-07T10:20:45.904324Z,8259,107,Acoustic Access Controller,65535,255,4,1788776445.9043243,Transports.UAN,acoustic message successfully parsed as 'TextMessage'.
+1788776445.9043846,2026-09-07T10:20:45.904384Z,8259,10,Text Message Parser,65535,255,4,1788776445.9043832,Autonomy.TextActions,processing text message from acoustic: 'pos '
+1788776445.904544,2026-09-07T10:20:45.904544Z,8259,10,Text Message Parser,65535,255,4,1788776445.9045436,Autonomy.TextActions,"cmd is pos, args are "
+1788776445.904741,2026-09-07T10:20:45.904741Z,8259,107,Acoustic Access Controller,65535,255,4,1788776445.9047408,Transports.UAN,Acoustic frame with 30 bytes will be sent to broadcast.
+1788776445.9370334,2026-09-07T10:20:45.937033Z,8259,107,Acoustic Access Controller,65535,255,4,1788776445.9370325,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 5
+1788776445.937207,2026-09-07T10:20:45.937206Z,8259,107,Acoustic Access Controller,65535,255,4,1788776445.9372067,Transports.UAN,m_last_acop is null
+1788776446.104637,2026-09-07T10:20:46.104636Z,8259,107,Acoustic Access Controller,65535,255,4,1788776446.1046362,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 0
+1788776446.1047575,2026-09-07T10:20:46.104757Z,8259,107,Acoustic Access Controller,65535,255,4,1788776446.1047575,Transports.UAN,m_last_acop is null
+1788776470.8254006,2026-09-07T10:21:10.825400Z,8259,107,Acoustic Access Controller,65535,255,4,1788776470.8254,Transports.UAN,Acoustic frame with 30 bytes will be sent to broadcast.
+1788776470.841885,2026-09-07T10:21:10.841885Z,8259,107,Acoustic Access Controller,65535,255,4,1788776470.8418846,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 5
+1788776470.8419673,2026-09-07T10:21:10.841967Z,8259,107,Acoustic Access Controller,65535,255,4,1788776470.841967,Transports.UAN,m_last_acop is null
+1788776471.3897266,2026-09-07T10:21:11.389726Z,8259,107,Acoustic Access Controller,65535,255,4,1788776471.3897262,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 0
+1788776471.3898525,2026-09-07T10:21:11.389852Z,8259,107,Acoustic Access Controller,65535,255,4,1788776471.389852,Transports.UAN,m_last_acop is null
+1788776472.3413122,2026-09-07T10:21:12.341312Z,8259,107,Acoustic Access Controller,65535,255,4,1788776472.3413115,Transports.UAN,parsing message received via acoustic message
+1788776472.3415203,2026-09-07T10:21:12.341520Z,8259,107,Acoustic Access Controller,65535,255,4,1788776472.34152,Transports.UAN,acoustic message successfully parsed as 'TextMessage'.
+1788776472.3415291,2026-09-07T10:21:12.341529Z,8259,10,Text Message Parser,65535,255,4,1788776472.3415287,Autonomy.TextActions,processing text message from acoustic: 'pos '
+1788776472.341693,2026-09-07T10:21:12.341692Z,8259,10,Text Message Parser,65535,255,4,1788776472.3416924,Autonomy.TextActions,"cmd is pos, args are "
+1788776472.825398,2026-09-07T10:21:12.825397Z,8259,107,Acoustic Access Controller,65535,255,4,1788776472.8253977,Transports.UAN,Acoustic frame with 30 bytes will be sent to broadcast.
+1788776472.8437681,2026-09-07T10:21:12.843768Z,8259,107,Acoustic Access Controller,65535,255,4,1788776472.8437676,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 5
+1788776472.8438427,2026-09-07T10:21:12.843842Z,8259,107,Acoustic Access Controller,65535,255,4,1788776472.8438427,Transports.UAN,m_last_acop is null
+1788776473.3877566,2026-09-07T10:21:13.387756Z,8259,107,Acoustic Access Controller,65535,255,4,1788776473.387756,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 0
+1788776473.3878489,2026-09-07T10:21:13.387848Z,8259,107,Acoustic Access Controller,65535,255,4,1788776473.3878486,Transports.UAN,m_last_acop is null
+1788776514.2435055,2026-09-07T10:21:54.243505Z,8259,107,Acoustic Access Controller,65535,255,4,1788776514.243505,Transports.UAN,parsing message received via acoustic message
+1788776514.243701,2026-09-07T10:21:54.243700Z,8259,107,Acoustic Access Controller,65535,255,4,1788776514.2437007,Transports.UAN,acoustic message successfully parsed as 'TextMessage'.
+1788776514.2437384,2026-09-07T10:21:54.243738Z,8259,10,Text Message Parser,65535,255,4,1788776514.2437382,Autonomy.TextActions,processing text message from acoustic: 'pos '
+1788776514.2438123,2026-09-07T10:21:54.243812Z,8259,10,Text Message Parser,65535,255,4,1788776514.243812,Autonomy.TextActions,"cmd is pos, args are "
+1788776514.243886,2026-09-07T10:21:54.243885Z,8259,107,Acoustic Access Controller,65535,255,4,1788776514.243886,Transports.UAN,Acoustic frame with 30 bytes will be sent to broadcast.
+1788776514.281238,2026-09-07T10:21:54.281238Z,8259,107,Acoustic Access Controller,65535,255,4,1788776514.2812366,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 5
+1788776514.281434,2026-09-07T10:21:54.281434Z,8259,107,Acoustic Access Controller,65535,255,4,1788776514.2814336,Transports.UAN,m_last_acop is null
+1788776514.46733,2026-09-07T10:21:54.467329Z,8259,107,Acoustic Access Controller,65535,255,4,1788776514.4673293,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 0
+1788776514.4675002,2026-09-07T10:21:54.467500Z,8259,107,Acoustic Access Controller,65535,255,4,1788776514.4675,Transports.UAN,m_last_acop is null
+1788776530.8254778,2026-09-07T10:22:10.825477Z,8259,107,Acoustic Access Controller,65535,255,4,1788776530.8254774,Transports.UAN,Acoustic frame with 30 bytes will be sent to broadcast.
+1788776530.8441706,2026-09-07T10:22:10.844170Z,8259,107,Acoustic Access Controller,65535,255,4,1788776530.84417,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 5
+1788776530.844242,2026-09-07T10:22:10.844242Z,8259,107,Acoustic Access Controller,65535,255,4,1788776530.8442419,Transports.UAN,m_last_acop is null
+1788776531.3887491,2026-09-07T10:22:11.388749Z,8259,107,Acoustic Access Controller,65535,255,4,1788776531.388748,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 0
+1788776531.3889894,2026-09-07T10:22:11.388989Z,8259,107,Acoustic Access Controller,65535,255,4,1788776531.388989,Transports.UAN,m_last_acop is null
+1788776538.4818456,2026-09-07T10:22:18.481845Z,8259,51,Plan Engine,65535,255,0,1788776538.481845,Plan.Engine,Goto7: executing maneuver
+1788776538.9818304,2026-09-07T10:22:18.981830Z,8259,21,Path Control,65535,255,0,1788776538.98183,Control.Path.VectorField,path (lat/lon): 78.66365 16.89767 to 78.66284 16.89526
+1788776549.2253053,2026-09-07T10:22:29.225305Z,8259,108,UDP,65535,255,0,1788776549.2253046,Transports.UDP,activating transmission to node 'ccu-araz-1-1'
+1788776549.225436,2026-09-07T10:22:29.225435Z,8259,108,UDP,65535,255,0,1788776549.2254357,Transports.UDP,activating transmission to node 'ccu-thale-50-116'
+1788776590.8755732,2026-09-07T10:23:10.875573Z,8259,107,Acoustic Access Controller,65535,255,4,1788776590.8755727,Transports.UAN,Acoustic frame with 30 bytes will be sent to broadcast.
+1788776590.8943558,2026-09-07T10:23:10.894355Z,8259,107,Acoustic Access Controller,65535,255,4,1788776590.8943553,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 5
+1788776590.89447,2026-09-07T10:23:10.894469Z,8259,107,Acoustic Access Controller,65535,255,4,1788776590.8944693,Transports.UAN,m_last_acop is null
+1788776591.4380891,2026-09-07T10:23:11.438089Z,8259,107,Acoustic Access Controller,65535,255,4,1788776591.438089,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 0
+1788776591.4382052,2026-09-07T10:23:11.438205Z,8259,107,Acoustic Access Controller,65535,255,4,1788776591.438205,Transports.UAN,m_last_acop is null
+1788776607.9916055,2026-09-07T10:23:27.991605Z,8259,107,Acoustic Access Controller,65535,255,4,1788776607.991605,Transports.UAN,parsing message received via acoustic message
+1788776607.9917462,2026-09-07T10:23:27.991746Z,8259,107,Acoustic Access Controller,65535,255,4,1788776607.991746,Transports.UAN,acoustic message successfully parsed as 'TextMessage'.
+1788776607.9917576,2026-09-07T10:23:27.991757Z,8259,10,Text Message Parser,65535,255,4,1788776607.9917572,Autonomy.TextActions,processing text message from acoustic: 'pos '
+1788776607.991883,2026-09-07T10:23:27.991883Z,8259,10,Text Message Parser,65535,255,4,1788776607.9918823,Autonomy.TextActions,"cmd is pos, args are "
+1788776607.992029,2026-09-07T10:23:27.992028Z,8259,107,Acoustic Access Controller,65535,255,4,1788776607.9920287,Transports.UAN,Acoustic frame with 30 bytes will be sent to broadcast.
+1788776608.0284638,2026-09-07T10:23:28.028463Z,8259,107,Acoustic Access Controller,65535,255,4,1788776608.0284636,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 5
+1788776608.0285757,2026-09-07T10:23:28.028575Z,8259,107,Acoustic Access Controller,65535,255,4,1788776608.0285754,Transports.UAN,m_last_acop is null
+1788776608.213111,2026-09-07T10:23:28.213110Z,8259,107,Acoustic Access Controller,65535,255,4,1788776608.2131102,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 0
+1788776608.213217,2026-09-07T10:23:28.213217Z,8259,107,Acoustic Access Controller,65535,255,4,1788776608.2132168,Transports.UAN,m_last_acop is null
+1788776610.98165,2026-09-07T10:23:30.981650Z,8259,51,Plan Engine,65535,255,0,1788776610.9816496,Plan.Engine,Goto8: executing maneuver
+1788776611.48194,2026-09-07T10:23:31.481940Z,8259,21,Path Control,65535,255,0,1788776611.4819393,Control.Path.VectorField,path (lat/lon): 78.66284 16.89526 to 78.66213 16.89853
+1788776621.3204734,2026-09-07T10:23:41.320473Z,8259,108,UDP,65535,255,0,1788776621.3204727,Transports.UDP,deactivating transmission to node 'ccu-araz-1-1'
+1788776621.3206801,2026-09-07T10:23:41.320680Z,8259,108,UDP,65535,255,0,1788776621.32068,Transports.UDP,deactivating transmission to node 'ccu-thale-50-116'
+1788776624.2428672,2026-09-07T10:23:44.242867Z,8259,107,Acoustic Access Controller,65535,255,4,1788776624.2428668,Transports.UAN,parsing message received via acoustic message
+1788776624.243015,2026-09-07T10:23:44.243015Z,8259,107,Acoustic Access Controller,65535,255,4,1788776624.2430148,Transports.UAN,acoustic message successfully parsed as 'TextMessage'.
+1788776624.2430205,2026-09-07T10:23:44.243020Z,8259,10,Text Message Parser,65535,255,4,1788776624.2430203,Autonomy.TextActions,processing text message from acoustic: 'pos '
+1788776624.2432563,2026-09-07T10:23:44.243256Z,8259,10,Text Message Parser,65535,255,4,1788776624.2432559,Autonomy.TextActions,"cmd is pos, args are "
+1788776624.2433438,2026-09-07T10:23:44.243343Z,8259,107,Acoustic Access Controller,65535,255,4,1788776624.2433436,Transports.UAN,Acoustic frame with 30 bytes will be sent to broadcast.
+1788776624.293048,2026-09-07T10:23:44.293047Z,8259,107,Acoustic Access Controller,65535,255,4,1788776624.2930467,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 5
+1788776624.2932427,2026-09-07T10:23:44.293242Z,8259,107,Acoustic Access Controller,65535,255,4,1788776624.2932425,Transports.UAN,m_last_acop is null
+1788776624.4629073,2026-09-07T10:23:44.462907Z,8259,107,Acoustic Access Controller,65535,255,4,1788776624.4629066,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 0
+1788776624.4630947,2026-09-07T10:23:44.463094Z,8259,107,Acoustic Access Controller,65535,255,4,1788776624.4630945,Transports.UAN,m_last_acop is null
+1788776637.346795,2026-09-07T10:23:57.346795Z,8259,107,Acoustic Access Controller,65535,255,4,1788776637.3467941,Transports.UAN,parsing message received via acoustic message
+1788776637.3470876,2026-09-07T10:23:57.347087Z,8259,107,Acoustic Access Controller,65535,255,4,1788776637.3470871,Transports.UAN,acoustic message successfully parsed as 'TextMessage'.
+1788776637.3470953,2026-09-07T10:23:57.347095Z,8259,10,Text Message Parser,65535,255,4,1788776637.347094,Autonomy.TextActions,processing text message from acoustic: 'pos '
+1788776637.3473554,2026-09-07T10:23:57.347355Z,8259,10,Text Message Parser,65535,255,4,1788776637.3473547,Autonomy.TextActions,"cmd is pos, args are "
+1788776637.3475497,2026-09-07T10:23:57.347549Z,8259,107,Acoustic Access Controller,65535,255,4,1788776637.3475494,Transports.UAN,Acoustic frame with 30 bytes will be sent to broadcast.
+1788776637.3833468,2026-09-07T10:23:57.383346Z,8259,107,Acoustic Access Controller,65535,255,4,1788776637.3833458,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 5
+1788776637.3835354,2026-09-07T10:23:57.383535Z,8259,107,Acoustic Access Controller,65535,255,4,1788776637.3835351,Transports.UAN,m_last_acop is null
+1788776637.5670838,2026-09-07T10:23:57.567083Z,8259,107,Acoustic Access Controller,65535,255,4,1788776637.5670831,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 0
+1788776637.5672722,2026-09-07T10:23:57.567272Z,8259,107,Acoustic Access Controller,65535,255,4,1788776637.567272,Transports.UAN,m_last_acop is null
+1788776641.3255126,2026-09-07T10:24:01.325512Z,8259,108,UDP,65535,255,0,1788776641.3255122,Transports.UDP,activating transmission to node 'ccu-araz-1-1'
+1788776641.3256953,2026-09-07T10:24:01.325695Z,8259,108,UDP,65535,255,0,1788776641.325695,Transports.UDP,activating transmission to node 'ccu-theocha-200-37'
+1788776641.3257604,2026-09-07T10:24:01.325760Z,8259,108,UDP,65535,255,0,1788776641.32576,Transports.UDP,activating transmission to node 'ccu-thale-50-116'
+1788776650.875676,2026-09-07T10:24:10.875675Z,8259,107,Acoustic Access Controller,65535,255,4,1788776650.8756754,Transports.UAN,Acoustic frame with 30 bytes will be sent to broadcast.
+1788776650.8936975,2026-09-07T10:24:10.893697Z,8259,107,Acoustic Access Controller,65535,255,4,1788776650.893697,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 5
+1788776650.8938732,2026-09-07T10:24:10.893873Z,8259,107,Acoustic Access Controller,65535,255,4,1788776650.893873,Transports.UAN,m_last_acop is null
+1788776651.443105,2026-09-07T10:24:11.443104Z,8259,107,Acoustic Access Controller,65535,255,4,1788776651.4431045,Transports.UAN,receive IMC::UamTxStatus dest: 8259 107 Value: 0
+1788776651.44322,2026-09-07T10:24:11.443219Z,8259,107,Acoustic Access Controller,65535,255,4,1788776651.4432197,Transports.UAN,m_last_acop is null
+1788776684.9817097,2026-09-07T10:24:44.981709Z,8259,51,Plan Engine,65535,255,0,1788776684.9817092,Plan.Engine,plan completed

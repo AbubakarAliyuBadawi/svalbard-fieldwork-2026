@@ -1,0 +1,11 @@
+{
+ "n_samples": 920,
+ "pred_end_median": 109.01666393279521,
+ "pred_end_lo": 42.186993057846145,
+ "pred_end_hi": 346.8657984533822,
+ "pred_10min_median": 30.552578131244587,
+ "pred_max_median": 109.01666393279521,
+ "obs_wt_closure": 23.296915132611538,
+ "obs_dune_closure": 19.881817123299598,
+ "obs_percentile": 0.007608695652173913
+}

@@ -1,0 +1,89 @@
+[2026/09/07 12:48:44] - WRN [Supervisors.Vehicle] >> now in 'CALIBRATION' mode
+[2026/09/07 12:48:47] - MSG [Plan.Engine] >> Goto1: executing maneuver
+[2026/09/07 12:48:48] - WRN [Supervisors.Vehicle] >> now in 'MANEUVERING' mode
+[2026/09/07 12:48:48] - MSG [Control.Path.VectorField] >> path (lat/lon): 78.66324 16.92579 to 78.66218 16.91839
+[2026/09/07 12:48:52] - MSG [Navigation.AUV.Navigation] >> estimating error of 1.28% (6.0/467.2m) in 418s
+[2026/09/07 12:48:52] - DBG [Transports.UAN] >> parsing message received via acoustic message
+[2026/09/07 12:48:52] - DBG [Transports.UAN] >> acoustic message successfully parsed as 'TextMessage'.
+[2026/09/07 12:48:52] - DBG [Autonomy.TextActions] >> processing text message from acoustic: 'pos '
+[2026/09/07 12:48:52] - DBG [Autonomy.TextActions] >> cmd is pos, args are 
+[2026/09/07 12:48:52] - DBG [Transports.UAN] >> Acoustic frame with 30 bytes will be sent to broadcast.
+[2026/09/07 12:48:52] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 5
+[2026/09/07 12:48:52] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 0
+[2026/09/07 12:48:55] - DBG [Transports.UAN] >> parsing message received via acoustic message
+[2026/09/07 12:48:55] - DBG [Transports.UAN] >> acoustic message successfully parsed as 'TextMessage'.
+[2026/09/07 12:48:55] - DBG [Autonomy.TextActions] >> processing text message from acoustic: 'pos '
+[2026/09/07 12:48:55] - DBG [Autonomy.TextActions] >> cmd is pos, args are 
+[2026/09/07 12:48:55] - DBG [Transports.UAN] >> Acoustic frame with 30 bytes will be sent to broadcast.
+[2026/09/07 12:48:56] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 5
+[2026/09/07 12:48:56] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 0
+[2026/09/07 12:49:05] - DBG [Transports.UAN] >> parsing message received via acoustic message
+[2026/09/07 12:49:05] - DBG [Transports.UAN] >> acoustic message successfully parsed as 'TextMessage'.
+[2026/09/07 12:49:05] - DBG [Autonomy.TextActions] >> processing text message from acoustic: 'pos '
+[2026/09/07 12:49:05] - DBG [Autonomy.TextActions] >> cmd is pos, args are 
+[2026/09/07 12:49:05] - DBG [Transports.UAN] >> Acoustic frame with 30 bytes will be sent to broadcast.
+[2026/09/07 12:49:05] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 5
+[2026/09/07 12:49:05] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 0
+[2026/09/07 12:49:31] - DBG [Transports.UAN] >> Acoustic frame with 30 bytes will be sent to broadcast.
+[2026/09/07 12:49:31] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 5
+[2026/09/07 12:49:31] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 0
+[2026/09/07 12:50:31] - DBG [Transports.UAN] >> Acoustic frame with 30 bytes will be sent to broadcast.
+[2026/09/07 12:50:31] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 5
+[2026/09/07 12:50:31] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 0
+[2026/09/07 12:51:31] - DBG [Transports.UAN] >> Acoustic frame with 30 bytes will be sent to broadcast.
+[2026/09/07 12:51:31] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 5
+[2026/09/07 12:51:31] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 0
+[2026/09/07 12:51:48] - DBG [Transports.UAN] >> parsing message received via acoustic message
+[2026/09/07 12:51:48] - DBG [Transports.UAN] >> acoustic message successfully parsed as 'TextMessage'.
+[2026/09/07 12:51:48] - DBG [Autonomy.TextActions] >> processing text message from acoustic: 'pos '
+[2026/09/07 12:51:48] - DBG [Autonomy.TextActions] >> cmd is pos, args are 
+[2026/09/07 12:51:48] - DBG [Transports.UAN] >> Acoustic frame with 30 bytes will be sent to broadcast.
+[2026/09/07 12:51:48] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 5
+[2026/09/07 12:51:49] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 0
+[2026/09/07 12:51:52] - DBG [Transports.UAN] >> parsing message received via acoustic message
+[2026/09/07 12:51:52] - DBG [Transports.UAN] >> acoustic message successfully parsed as 'TextMessage'.
+[2026/09/07 12:51:52] - DBG [Autonomy.TextActions] >> processing text message from acoustic: 'pos '
+[2026/09/07 12:51:52] - DBG [Autonomy.TextActions] >> cmd is pos, args are 
+[2026/09/07 12:51:52] - DBG [Transports.UAN] >> Acoustic frame with 30 bytes will be sent to broadcast.
+[2026/09/07 12:51:52] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 5
+[2026/09/07 12:51:52] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 0
+[2026/09/07 12:51:57] - DBG [Transports.UAN] >> parsing message received via acoustic message
+[2026/09/07 12:51:57] - DBG [Transports.UAN] >> acoustic message successfully parsed as 'TextMessage'.
+[2026/09/07 12:51:57] - DBG [Autonomy.TextActions] >> processing text message from acoustic: 'pos '
+[2026/09/07 12:51:57] - DBG [Autonomy.TextActions] >> cmd is pos, args are 
+[2026/09/07 12:51:57] - DBG [Transports.UAN] >> Acoustic frame with 30 bytes will be sent to broadcast.
+[2026/09/07 12:51:57] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 5
+[2026/09/07 12:51:57] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 0
+[2026/09/07 12:52:06] - MSG [Plan.Engine] >> PopUp1: executing maneuver
+[2026/09/07 12:52:06] - MSG [Control.Path.VectorField] >> path (lat/lon): 78.66218 16.91839 to 78.66221 16.91852
+[2026/09/07 12:52:24] - MSG [Control.Path.VectorField] >> now loitering
+[2026/09/07 12:52:31] - DBG [Transports.UAN] >> Acoustic frame with 30 bytes will be sent to broadcast.
+[2026/09/07 12:52:31] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 5
+[2026/09/07 12:52:31] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 0
+[2026/09/07 12:52:34] - MSG [Navigation.AUV.Navigation] >> estimating error of 3.70% (8.6/233.2m) in 222s
+[2026/09/07 12:52:35] - MSG [Control.Path.VectorField] >> path (lat/lon): 78.66235 16.91783 to 78.66235 16.91783
+[2026/09/07 12:52:36] - MSG [Supervisors.Safety] >> sending SMS (ttl:120) to +4748221672: (R) (lauv-marie) 12:52:36 / 78 39.741070, 16 55.070650 / f:66 c:93 / p:89 > 78 39.732335, 16 55.111497
+[2026/09/07 12:52:36] - MSG [Transports.GSM] >> Added SMS to +4748221672 to the queue
+[2026/09/07 12:52:36] - DBG [Transports.UAN] >> Acoustic frame with 30 bytes will be sent to broadcast.
+[2026/09/07 12:52:36] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 5
+[2026/09/07 12:52:36] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 0
+[2026/09/07 12:52:43] - MSG [Transports.UDP] >> activating transmission to node 'ccu-dg-l-1-155'
+[2026/09/07 12:52:43] - MSG [Transports.UDP] >> activating transmission to node 'ccu-thale-50-116'
+[2026/09/07 12:52:47] - MSG [Transports.GSM] >> Sending SMS to +4748221672 failed with error: SMS transmission failed with error code -1
+[2026/09/07 12:52:51] - MSG [Control.Path.VectorField] >> now loitering
+[2026/09/07 12:53:25] - DBG [Transports.UAN] >> parsing message received via acoustic message
+[2026/09/07 12:53:25] - DBG [Transports.UAN] >> acoustic message successfully parsed as 'TextMessage'.
+[2026/09/07 12:53:25] - DBG [Autonomy.TextActions] >> processing text message from acoustic: 'pos '
+[2026/09/07 12:53:25] - DBG [Autonomy.TextActions] >> cmd is pos, args are 
+[2026/09/07 12:53:25] - DBG [Transports.UAN] >> Acoustic frame with 30 bytes will be sent to broadcast.
+[2026/09/07 12:53:25] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 5
+[2026/09/07 12:53:25] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 0
+[2026/09/07 12:53:31] - DBG [Transports.UAN] >> Acoustic frame with 30 bytes will be sent to broadcast.
+[2026/09/07 12:53:31] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 5
+[2026/09/07 12:53:32] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 0
+[2026/09/07 12:53:38] - MSG [Transports.UDP] >> deactivating transmission to node 'ccu-dg-l-1-155'
+[2026/09/07 12:53:38] - MSG [Transports.UDP] >> deactivating transmission to node 'ccu-thale-50-116'
+[2026/09/07 12:53:41] - MSG [Autonomy.TextActions] >> Replying 'Finished executing 07092026_sp1-Goto1: last maneuver.' via Acoustic modem.
+[2026/09/07 12:53:42] - MSG [Plan.Engine] >> plan completed
+[2026/09/07 12:53:42] - MSG [Transports.Logging] >> log stopped '20260907/124844_07092026_sp1-Goto1'
+[2026/09/07 12:53:42] - MSG [Transports.Logging] >> log started '20260907/125342'

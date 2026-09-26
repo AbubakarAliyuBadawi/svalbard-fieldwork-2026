@@ -1,0 +1,67 @@
+{
+  "status": "PRELIMINARY: inferred split-beam/bottom layouts; compare with BioSonics export",
+  "files": {
+    "20260906_141611.dt4": "7644d3bec2881cc7acff499bb9c02ba5eb95bee5c21441fe5683c26546f299ce",
+    "20260906_141611.rtpx": "641438de618354b3fca61d536e8beaa3b4fd9bbad6606cbed0cee579bb60b737"
+  },
+  "environment": {
+    "sound_speed_m_s": 1469.5875,
+    "temperature_degC": 5.0,
+    "salinity": 34.0
+  },
+  "settings": {
+    "channel": 1,
+    "samples_per_ping": 3346,
+    "sample_interval_us": 24.0,
+    "blanking_samples": 56,
+    "frequency_hz": 199000,
+    "serial": "T200P316"
+  },
+  "record_counts": {
+    "0xffff": 1,
+    "0x001e": 1,
+    "0x0012": 1,
+    "0x0013": 1,
+    "0x0010": 2,
+    "0x0036": 1,
+    "0x0042": 3,
+    "0x000f": 14895,
+    "0x0031": 13405,
+    "0x0040": 13540,
+    "0x000e": 7448,
+    "0x0011": 7448,
+    "0x0030": 7448,
+    "0x0037": 7448,
+    "0x001d": 7446,
+    "0x0032": 7446,
+    "0xfffe": 2
+  },
+  "pings": 7446,
+  "valid_bottom_picks": 7446,
+  "valid_georeferenced_picks": 7446,
+  "duration_minutes": 24.816483334700266,
+  "range_min_m": 15.148384094238281,
+  "range_max_m": 21.67329978942871,
+  "latitude_bounds": [
+    78.42751266666667,
+    78.42953266666667
+  ],
+  "longitude_bounds": [
+    17.120304666666666,
+    17.127938500000003
+  ],
+  "recorder_minus_gps_seconds": 485.239000082016,
+  "dt4_rtpx_bottom_values_identical": true,
+  "max_sample_range_residual_m": 0.00017754694824390072,
+  "gps_max_interpolation_gap_seconds": 1.0,
+  "configured_bottom_depth_offset_m": "1",
+  "configured_orientation_correction": "false",
+  "vertical_reference": "Acoustic range from transducer; configured depth offset NOT added",
+  "corrections_applied": [],
+  "warnings": [
+    "Confirm the recorded coordinates against the survey site in the report.",
+    "Clock times differ; sonar and GPS aligned on shared recorder clock.",
+    "Bottom validity is the stored tracker flag, not an independent quality assessment.",
+    "Echo counts are uncalibrated; do not interpret as Sv, TS, sediment class, or biomass."
+  ]
+}

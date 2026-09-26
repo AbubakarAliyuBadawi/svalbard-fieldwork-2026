@@ -1,0 +1,41 @@
+{
+ "A carried over from star (delta, s, c)": {
+  "median_10min": 26.394098334011474,
+  "median_end": 94.37045961363555,
+  "lo_end": 17.841858438916862,
+  "hi_end": 332.78067942667633,
+  "obs_percentile": 0.0725,
+  "max_median": 94.37045961363555,
+  "median_of_path": 46.45684101837462
+ },
+ "B-indep dive-informed (s, c per window)": {
+  "median_10min": 19.21457773384747,
+  "median_end": 55.623034632538904,
+  "lo_end": 49.253641980508625,
+  "hi_end": 63.484797265365756,
+  "obs_percentile": 0.0,
+  "max_median": 55.623034632538904,
+  "median_of_path": 34.195573391373316
+ },
+ "B-corr dive-informed, correlated": {
+  "median_10min": 26.883193938016767,
+  "median_end": 83.3475398503868,
+  "lo_end": 53.41217144183607,
+  "hi_end": 175.79721787547942,
+  "obs_percentile": 0.0,
+  "max_median": 83.3475398503868,
+  "median_of_path": 47.410262049744446
+ },
+ "dive_windows": {
+  "s_median": 0.9742848873138428,
+  "cn_median": 0.019671951420605183,
+  "ce_median": -0.0075724495109170675,
+  "cmag_median": 0.03783598197483411,
+  "n_windows": 64,
+  "duration_s": 2052
+ },
+ "observed": {
+  "wt_closure": 23.296915132611538,
+  "dune": 19.881817123299598
+ }
+}

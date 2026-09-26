@@ -1,0 +1,62 @@
+[2026/09/07 11:46:01] - WRN [Supervisors.Vehicle] >> now in 'CALIBRATION' mode
+[2026/09/07 11:46:04] - MSG [Plan.Engine] >> Goto1: executing maneuver
+[2026/09/07 11:46:05] - WRN [Supervisors.Vehicle] >> now in 'MANEUVERING' mode
+[2026/09/07 11:46:05] - MSG [Control.Path.VectorField] >> path (lat/lon): 78.66514 16.88920 to 78.66465 16.89240
+[2026/09/07 11:46:05] - WRN [Transports.IridiumSBD] >> transmission failed: Status Code 18: connection lost
+[2026/09/07 11:46:11] - WRN [Transports.IridiumSBD] >> transmission failed: Status Code 38: unknown code
+[2026/09/07 11:46:12] - DBG [Transports.UAN] >> parsing message received via acoustic message
+[2026/09/07 11:46:12] - DBG [Transports.UAN] >> acoustic message successfully parsed as 'TextMessage'.
+[2026/09/07 11:46:12] - DBG [Autonomy.TextActions] >> processing text message from acoustic: 'pos '
+[2026/09/07 11:46:12] - DBG [Autonomy.TextActions] >> cmd is pos, args are 
+[2026/09/07 11:46:12] - DBG [Transports.UAN] >> Acoustic frame with 30 bytes will be sent to broadcast.
+[2026/09/07 11:46:12] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 5
+[2026/09/07 11:46:12] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 0
+[2026/09/07 11:46:20] - DBG [Transports.UAN] >> parsing message received via acoustic message
+[2026/09/07 11:46:20] - DBG [Transports.UAN] >> acoustic message successfully parsed as 'TextMessage'.
+[2026/09/07 11:46:20] - DBG [Autonomy.TextActions] >> processing text message from acoustic: 'pos '
+[2026/09/07 11:46:20] - DBG [Autonomy.TextActions] >> cmd is pos, args are 
+[2026/09/07 11:46:20] - DBG [Transports.UAN] >> Acoustic frame with 30 bytes will be sent to broadcast.
+[2026/09/07 11:46:20] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 5
+[2026/09/07 11:46:20] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 0
+[2026/09/07 11:46:28] - DBG [Transports.UAN] >> parsing message received via acoustic message
+[2026/09/07 11:46:28] - DBG [Transports.UAN] >> acoustic message successfully parsed as 'TextMessage'.
+[2026/09/07 11:46:28] - DBG [Autonomy.TextActions] >> processing text message from acoustic: 'pos '
+[2026/09/07 11:46:28] - DBG [Autonomy.TextActions] >> cmd is pos, args are 
+[2026/09/07 11:46:28] - DBG [Transports.UAN] >> Acoustic frame with 30 bytes will be sent to broadcast.
+[2026/09/07 11:46:28] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 5
+[2026/09/07 11:46:29] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 0
+[2026/09/07 11:46:46] - DBG [Transports.UAN] >> Acoustic frame with 30 bytes will be sent to broadcast.
+[2026/09/07 11:46:46] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 5
+[2026/09/07 11:46:47] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 0
+[2026/09/07 11:47:11] - MSG [Plan.Engine] >> PopUp1: executing maneuver
+[2026/09/07 11:47:12] - MSG [Control.Path.VectorField] >> path (lat/lon): 78.66465 16.89240 to 78.66382 16.88968
+[2026/09/07 11:47:41] - DBG [Transports.UAN] >> parsing message received via acoustic message
+[2026/09/07 11:47:41] - DBG [Transports.UAN] >> acoustic message successfully parsed as 'TextMessage'.
+[2026/09/07 11:47:41] - DBG [Autonomy.TextActions] >> processing text message from acoustic: 'pos '
+[2026/09/07 11:47:41] - DBG [Autonomy.TextActions] >> cmd is pos, args are 
+[2026/09/07 11:47:41] - DBG [Transports.UAN] >> Acoustic frame with 30 bytes will be sent to broadcast.
+[2026/09/07 11:47:41] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 5
+[2026/09/07 11:47:41] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 0
+[2026/09/07 11:47:44] - DBG [Transports.UAN] >> parsing message received via acoustic message
+[2026/09/07 11:47:44] - DBG [Transports.UAN] >> acoustic message successfully parsed as 'TextMessage'.
+[2026/09/07 11:47:44] - DBG [Autonomy.TextActions] >> processing text message from acoustic: 'pos '
+[2026/09/07 11:47:44] - DBG [Autonomy.TextActions] >> cmd is pos, args are 
+[2026/09/07 11:47:44] - DBG [Transports.UAN] >> Acoustic frame with 30 bytes will be sent to broadcast.
+[2026/09/07 11:47:44] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 5
+[2026/09/07 11:47:44] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 0
+[2026/09/07 11:47:46] - DBG [Transports.UAN] >> Acoustic frame with 30 bytes will be sent to broadcast.
+[2026/09/07 11:47:46] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 5
+[2026/09/07 11:47:47] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 0
+[2026/09/07 11:48:39] - MSG [Control.Path.VectorField] >> path (lat/lon): 78.66382 16.88968 to 78.66387 16.88982
+[2026/09/07 11:48:41] - MSG [Autonomy.TextActions] >> Replying 'Finished executing Billefjord_Rows_SSS_MBES_07092026-Goto1: last maneuver.' via Acoustic modem.
+[2026/09/07 11:48:41] - MSG [Control.Path.VectorField] >> path (lat/lon): 78.66385 16.88977 to 78.66385 16.88977
+[2026/09/07 11:48:41] - MSG [Transports.UDP] >> activating transmission to node 'ccu-araz-1-1'
+[2026/09/07 11:48:41] - MSG [Transports.UDP] >> activating transmission to node 'ccu-thale-50-116'
+[2026/09/07 11:48:41] - MSG [Supervisors.Safety] >> sending SMS (ttl:120) to +4748221672: (R) (lauv-marie) 11:48:41 / 78 39.830950, 16 53.385780 / f:71 c:93 / p:100 > 78 39.832077, 16 53.389088
+[2026/09/07 11:48:41] - MSG [Transports.GSM] >> Added SMS to +4748221672 to the queue
+[2026/09/07 11:48:41] - DBG [Transports.UAN] >> Acoustic frame with 30 bytes will be sent to broadcast.
+[2026/09/07 11:48:41] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 5
+[2026/09/07 11:48:42] - DBG [Transports.UAN] >> receive IMC::UamTxStatus dest: 8259 107 Value: 0
+[2026/09/07 11:48:43] - MSG [Plan.Engine] >> plan completed
+[2026/09/07 11:48:43] - MSG [Transports.Logging] >> log stopped '20260907/114601_Billefjord_Rows_SSS_MBES_07092026-Goto1'
+[2026/09/07 11:48:43] - MSG [Transports.Logging] >> log started '20260907/114843'

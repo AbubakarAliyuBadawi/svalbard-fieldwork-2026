@@ -1,0 +1,67 @@
+{
+  "status": "PRELIMINARY: inferred split-beam/bottom layouts; compare with BioSonics export",
+  "files": {
+    "20260907_110153.dt4": "6f24a75cbb351c1f781dfb7789a47773e4c7d6d9cf67bb2f8aa6181854c1b18a",
+    "20260907_110153.rtpx": "ea92a99f6df9a8f0787de6eb2cbe6d9e42a693ba95a041c4f80514176708039c"
+  },
+  "environment": {
+    "sound_speed_m_s": 1469.5875,
+    "temperature_degC": 5.0,
+    "salinity": 34.0
+  },
+  "settings": {
+    "channel": 1,
+    "samples_per_ping": 3346,
+    "sample_interval_us": 24.0,
+    "blanking_samples": 56,
+    "frequency_hz": 199000,
+    "serial": "T200P316"
+  },
+  "record_counts": {
+    "0xffff": 1,
+    "0x001e": 1,
+    "0x0012": 1,
+    "0x0013": 1,
+    "0x0010": 2,
+    "0x0036": 1,
+    "0x0042": 3,
+    "0x000f": 17994,
+    "0x000e": 9001,
+    "0x0011": 9001,
+    "0x0030": 9001,
+    "0x0037": 9001,
+    "0x0040": 16363,
+    "0x0031": 16200,
+    "0x001d": 8992,
+    "0x0032": 8992,
+    "0xfffe": 2
+  },
+  "pings": 8992,
+  "valid_bottom_picks": 298,
+  "valid_georeferenced_picks": 298,
+  "duration_minutes": 29.99675000111262,
+  "range_min_m": 10.17534065246582,
+  "range_max_m": 59.90577697753906,
+  "latitude_bounds": [
+    78.66168583333334,
+    78.6663755
+  ],
+  "longitude_bounds": [
+    16.869417,
+    16.882479333333333
+  ],
+  "recorder_minus_gps_seconds": 485.8430001735687,
+  "dt4_rtpx_bottom_values_identical": true,
+  "max_sample_range_residual_m": 0.0004902361328191773,
+  "gps_max_interpolation_gap_seconds": 1.0,
+  "configured_bottom_depth_offset_m": "1",
+  "configured_orientation_correction": "false",
+  "vertical_reference": "Acoustic range from transducer; configured depth offset NOT added",
+  "corrections_applied": [],
+  "warnings": [
+    "Confirm the recorded coordinates against the survey site in the report.",
+    "Clock times differ; sonar and GPS aligned on shared recorder clock.",
+    "Bottom validity is the stored tracker flag, not an independent quality assessment.",
+    "Echo counts are uncalibrated; do not interpret as Sv, TS, sediment class, or biomass."
+  ]
+}
